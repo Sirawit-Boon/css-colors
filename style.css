@@ -1,1 +1,34 @@
-/* Start coding here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bg {
+  display: flex;
+  background-image: linear-gradient(
+    90deg,
+    hsl(0, 100%, 70%),
+    hsl(240, 100%, 70%)
+  );
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(0, 50%, 100%, 0.5);
+    width: 400px;
+    height: 300px;
+    padding: 30px;
+    gap: 13px;
+    border-radius: 5px;
+    text-align: center;
+}
